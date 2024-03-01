@@ -17,7 +17,6 @@ public class DiagonalMatrixSum {
                     sum = sum + matrix[i][j];
                 }
             }
-            System.out.println();
         }
         System.out.println("The matrix you entered: ");
         for(int i=0;i<3;i++){

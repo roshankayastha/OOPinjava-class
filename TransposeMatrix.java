@@ -9,13 +9,12 @@ public class TransposeMatrix {
             for (int j = 0; j < 3; j++) {
                 real[i][j] = input.nextInt();
             }
-            System.out.println("\n");
+            System.out.println();
         }
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 transpose[i][j] = real[j][i]; //Transposing Matrix
             }
-            System.out.println("\n");
         }
         System.out.println("The matrix you entered: ");
         for(int i=0;i<3;i++){

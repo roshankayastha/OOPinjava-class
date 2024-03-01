@@ -23,7 +23,6 @@ public class MatrixSumDemo {
 			for(int j=0;j<3;j++){
 				sum[i][j] = a[i][j]+b[i][j];
 			}
-			System.out.println("\n");
 		}
 		System.out.println("Your first matrix is:");
 		for(int i=0;i<3;i++){
